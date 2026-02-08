@@ -3,6 +3,7 @@ pandas
 numpy
 scikit-learn
 matplotlib
+pm4py
 
 # Deep Learning (The heavy lifter)
 torch

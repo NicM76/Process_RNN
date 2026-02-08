@@ -19,3 +19,6 @@ Unlike static analysis, this tool is designed as a deployed **MLOps** solution, 
 
 ## Setup
 (To be added: Instructions on how to build the Docker image)
+
+## Data
+https://data.4tu.nl/articles/dataset/BPI_Challenge_2012/12689204

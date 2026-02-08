@@ -1,0 +1,14 @@
+# Data Manipulation
+pandas
+numpy
+scikit-learn
+matplotlib
+
+# Deep Learning (The heavy lifter)
+torch
+torchvision
+
+# Development
+jupyter
+notebook
+tqdm

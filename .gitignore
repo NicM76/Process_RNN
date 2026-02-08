@@ -1,0 +1,32 @@
+# --- Python Setup ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+
+# --- IDE Settings (VS Code / PyCharm) ---
+.vscode/
+.idea/
+
+# raw data 
+data/
+
+# model
+models/*.pth
+models/*.pt
+
+# --- OS Junk ---
+.DS_Store
+
+# Ignore Conda environment folders
+.conda/
+envs/
+
+# Ignore Python bytecode and local caches
+__pycache__/
+*.pyc
+.cache/

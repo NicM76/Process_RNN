@@ -4,8 +4,13 @@ numpy
 scikit-learn
 matplotlib
 pm4py
+seaborn
+fastapi
+uvicorn
+pydantic
 
 # Deep Learning (The heavy lifter)
+--extra-index-url https://download.pytorch.org/whl/cpu
 torch
 torchvision
 

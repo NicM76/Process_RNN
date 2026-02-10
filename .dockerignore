@@ -1,0 +1,28 @@
+# Python environment and cache
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Data and Models
+# We keep the trained model, but ignore the evaluation results/plots
+models/*.png
+models/*.pdf
+
+# RAW Data (This is crucial)
+# You only need 'activity_map.json' and 'process_lstm.pth' to run the API.
+# You do NOT need the original 100MB+ XES/CSV files in the container.
+data/raw/
+data/processed/*.pt
+data/*.xes
+data/*.csv
+
+# Local Dev/Jupyter
+notebooks/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# System files
+.DS_Store

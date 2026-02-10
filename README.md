@@ -27,6 +27,11 @@ This repository contains an end-to-end implementation of a predictive process mo
 ### Prerequisites
 * Docker installed on the host machine.
 
+### Order of Execution
+1. **Data Preparation:** Run the `notebooks/preprocessing.ipynb` once. This generates the necessary `activity_map.json` and processed tensors required for training and evaluation.
+2. **Model Training:** Execute `python train.py` to train the LSTM and save the model weights.
+3. **Deployment:** Use Docker to build and run the API for inference.
+
 ### Deployment via Docker
 1.  **Build the Image:**
     ```bash
